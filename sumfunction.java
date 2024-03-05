@@ -19,6 +19,7 @@ public static void main(String[] args) {
         System.out.print("Enter second Number: ");
         int b=sc.nextInt();
         int sum1=sum(a, b);
+        sc.close();
        
         System.out.println("The Sum of two numbers is: "+sum1);
         

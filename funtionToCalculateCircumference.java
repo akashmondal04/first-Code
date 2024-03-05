@@ -13,6 +13,7 @@ public class funtionToCalculateCircumference {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter thr Radius: ");
         float r= sc.nextFloat();
+        sc.close();
         System.out.println("Circumference of the circle: "+circumference(r));
     }  
 }
