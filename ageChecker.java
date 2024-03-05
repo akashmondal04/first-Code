@@ -3,7 +3,7 @@ package first_code;
 import java.util.Scanner;
 
 public class ageChecker {
-     public static int ageChecker(int a){
+     public static int age(int a){
         if(a>=18){
             System.out.println("You are Eligible to Vote");
         }else{
@@ -16,7 +16,8 @@ public class ageChecker {
         System.out.print("Enter Your Age: ");
         Scanner sc=new Scanner(System.in);
         int a= sc.nextInt();
-        ageChecker(a);
+        age(a);
+        sc.close();
     }
     
 }
