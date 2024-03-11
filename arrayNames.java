@@ -18,7 +18,7 @@ public class arrayNames {
             }
             //Output Name
             for(int i=0; i<name.length; i++){
-                System.out.println(name[i]);
+                System.out.print(name[i]+" ");
             }
             sc.close();
         

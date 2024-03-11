@@ -10,6 +10,7 @@ public class string {
     
         int num2 =Integer.parseInt(number2);
         int num =Integer.parseInt(number1);
+        
     
         int sum=num+num2;
         System.out.println(sum); 
