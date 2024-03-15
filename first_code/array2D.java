@@ -6,10 +6,10 @@ public class array2D {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Rows");
-        int row=sc.nextInt();
+        int row=sc.nextInt();// rowsInput
        
         System.out.println("cols");
-        int col=sc.nextInt();
+        int col=sc.nextInt();// colsInput
        
         int matrix[][]=new int[row][col];//2d array decleared
 
